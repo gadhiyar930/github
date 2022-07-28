@@ -1,0 +1,19 @@
+name: permission_asker
+description: A wrapper for permission_handler which lifts some of the boilerplate needed to handle permissions in our apps.
+version: 1.0.0+1
+homepage: https://github.com/magicleon94/permission_asker
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^9.1.0
+  pedantic: ^1.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
